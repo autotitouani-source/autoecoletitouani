@@ -395,7 +395,7 @@ html, body { overflow-x: hidden; }
   </div>
   <div class="hero-stats">
     <div class="stat"><span class="stat-n">+20</span><span class="stat-l">Ans d'expérience</span></div>
-    <div class="stat"><span class="stat-n">2500</span><span class="stat-l">Permis obtenus</span></div>
+    <div class="stat"><span class="stat-n">+2500</span><span class="stat-l">Permis obtenus</span></div>
 
     <div class="stat stat-ar"><span class="stat-n">98%</span><span class="stat-l">نجاح مضمون</span></div>
   </div>
