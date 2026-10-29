@@ -395,9 +395,9 @@ html, body { overflow-x: hidden; }
   </div>
   <div class="hero-stats">
     <div class="stat"><span class="stat-n">+20</span><span class="stat-l">Ans d'expérience</span></div>
-    <div class="stat"><span class="stat-n">+2500</span><span class="stat-l">Permis obtenus</span></div>
-    <div class="stat"><span class="stat-n">99%</span><span class="stat-l">Taux de réussite</span></div>
-    <div class="stat"><span class="stat-n">Peugeot</span><span class="stat-l">2026 – dernière génération</span></div>
+    <div class="stat"><span class="stat-n">2500</span><span class="stat-l">Permis obtenus</span></div>
+
+    <div class="stat stat-ar"><span class="stat-n">98%</span><span class="stat-l">نجاح مضمون</span></div>
   </div>
 </section>
 
