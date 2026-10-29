@@ -339,24 +339,8 @@ footer{background:var(--dark2);border-top:1px solid rgba(255,255,255,.05);
 html, body { overflow-x: hidden; }
 
 @media (max-width: 768px) {
-  .hero {
-    height: auto;
-    min-height: 100vh;
-    padding: 90px 20px 40px;
-    background-position: 65% center;
-  }
-  .hero-buttons {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
   .hero-stats {
-    position: static;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-top: 30px;
+    transform: translateY(110px);
   }
 }
 </style>
