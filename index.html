@@ -336,6 +336,29 @@ footer{background:var(--dark2);border-top:1px solid rgba(255,255,255,.05);
   .ft-grid{grid-template-columns:1fr}
   .ft-bottom{flex-direction:column;gap:10px;text-align:center}
 }
+html, body { overflow-x: hidden; }
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 90px 20px 40px;
+    background-position: 65% center;
+  }
+  .hero-buttons {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .hero-stats {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
 </style>
 </head>
 <body>
@@ -389,7 +412,7 @@ footer{background:var(--dark2);border-top:1px solid rgba(255,255,255,.05);
   <div class="hero-stats">
     <div class="stat"><span class="stat-n">+20</span><span class="stat-l">Ans d'expérience</span></div>
     <div class="stat"><span class="stat-n">+2500</span><span class="stat-l">Permis obtenus</span></div>
-    <div class="stat"><span class="stat-n">94%</span><span class="stat-l">Taux de réussite</span></div>
+    <div class="stat"><span class="stat-n">99%</span><span class="stat-l">Taux de réussite</span></div>
     <div class="stat"><span class="stat-n">Peugeot</span><span class="stat-l">2026 – dernière génération</span></div>
   </div>
 </section>
